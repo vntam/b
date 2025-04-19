@@ -1,0 +1,99 @@
+/* Home.css */
+.home-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.home-banner {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.home-banner h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.home-banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.home-promo {
+    margin-bottom: 30px;
+}
+
+.promo-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.promo-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.promo-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.home-services {
+    margin-bottom: 30px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.service-item p {
+    color: #777;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+
+
+.home-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
