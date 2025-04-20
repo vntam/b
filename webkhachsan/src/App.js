@@ -9,9 +9,9 @@ import Review from "./components/review.js"
 import HoTro from "./components/hotro.js"
 import DangKi from "./components/dangki.js"
 import Home from "./components/Home.js"
-import KhachSan from "./components/khachsan.js"
+import Room from "./components/room.js"
 import PhongDaDat from "./components/phongdadat.js"
-
+import KhuVuc from "./components/khuvuc.js";
 
 function App() {
   return (
@@ -20,9 +20,10 @@ function App() {
         <Route path="/" element= {<>
           <Home/>
         </>}></Route>
-        <Route path="/khachsan" element = {<KhachSan/>}></Route>
-        <Route path="/phong" element = {<HotelList/>}></Route>
+        <Route path="/khachsan" element = {<HotelList/>}></Route>
+        <Route path="/phong" element = {<Room/>}></Route>
         <Route path="/phongdadat" element = {<PhongDaDat/>}></Route>
+        <Route path="/khuvuc" element={<KhuVuc />} />
         <Route path="/thanhtoan" element = {<Payment/>}></Route>
         <Route path="/khuyenmai" element = {<KhuyenMai/>}></Route>
         <Route path="/review" element = {<Review/>}></Route>

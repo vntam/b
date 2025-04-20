@@ -19,6 +19,9 @@ function Header() {
           <Link to="/phongdadat">Phòng Đã Đặt</Link>
         </li>
         <li>
+          <Link to="/khuvuc">Khu Vực</Link>
+        </li>
+        <li>
           <Link to="/thanhtoan">Thanh Toán</Link>
         </li>
         <li>
